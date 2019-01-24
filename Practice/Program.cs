@@ -10,7 +10,14 @@ namespace Practice
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("w");
+            int i;
+             for (i=2;i<=9;i++)
+             {
+                for (int j = 1; j <= 9; j++)
+                    Console.WriteLine($"{i} x {j} = {i * j}");
+                    Console.WriteLine("");
+             }
+             Console.WriteLine("w");
         }
     }
 }
